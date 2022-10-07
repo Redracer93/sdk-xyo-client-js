@@ -3094,12 +3094,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xylabs/tsconfig@npm:^1.0.13":
-  version: 1.0.13
-  resolution: "@xylabs/tsconfig@npm:1.0.13"
+"@xylabs/tsconfig@npm:^2.7.23":
+  version: 2.7.23
+  resolution: "@xylabs/tsconfig@npm:2.7.23"
   dependencies:
-    tslib: ^2.3.1
-  checksum: 7d6841afd7e7bcab907b71be8bcf1e4c87670e38b23bc5a91036f336c7a327a42bce67f3d6dc95dc0a08addd9bc59c2d0fab8ed6962f9927c9f9eec0ebf168e6
+    typescript: ^4.8.4
+  checksum: f9c46f7819d2256f1598b854b5a194e0ec2097a86d8885d9a47b46239c5c14fabbc1f190d13d505d77e28c289412ba870158cdd19df383863229e06bfe6cc9a4
   languageName: node
   linkType: hard
 
@@ -3114,7 +3114,7 @@ __metadata:
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/sdk-js": ^2.5.5
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/core": "workspace:^"
     axios: ^0.27.2
     dotenv: ^16.0.1
@@ -3164,7 +3164,7 @@ __metadata:
     "@types/uuid": ^8.3.4
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/core": "workspace:^"
     axios: ^0.27.2
     bowser: ^2.11.0
@@ -3186,7 +3186,7 @@ __metadata:
     "@types/lodash": ^4.14.182
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/api": "workspace:^"
     "@xyo-network/core": "workspace:^"
     "@xyo-network/network": "workspace:^"
@@ -3209,7 +3209,7 @@ __metadata:
     "@types/uuid": ^8.3.4
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/core": "workspace:^"
     axios: ^0.27.2
     bowser: ^2.11.0
@@ -3231,7 +3231,7 @@ __metadata:
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/sdk-js": ^2.5.5
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     license-checker: ^25.0.1
     tslib: ^2.4.0
     typescript: ^4.6.4
@@ -3250,7 +3250,7 @@ __metadata:
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/sdk-js": ^2.5.5
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/api": "workspace:^"
     "@xyo-network/core": "workspace:^"
     "@xyo-network/domain": "workspace:^"
@@ -3275,7 +3275,7 @@ __metadata:
     "@types/uuid": ^8.3.4
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/core": "workspace:^"
     axios: ^0.27.2
     bowser: ^2.11.0
@@ -3297,7 +3297,7 @@ __metadata:
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/rollup-config": ^1.1.17
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/api": "workspace:^"
     "@xyo-network/core": "workspace:^"
     "@xyo-network/cryptomarket-witness": "workspace:^"
@@ -3339,7 +3339,7 @@ __metadata:
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/sdk-js": ^2.5.5
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/core": "workspace:^"
     "@xyo-network/sdk-xyo-mongo-js": ^2.2.7
     dotenv: ^16.0.1
@@ -3362,7 +3362,7 @@ __metadata:
     "@types/uuid": ^8.3.4
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/core": "workspace:^"
     axios: ^0.27.2
     bowser: ^2.11.0
@@ -3387,7 +3387,7 @@ __metadata:
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/sdk-js": ^2.5.5
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/api": "workspace:^"
     "@xyo-network/core": "workspace:^"
     "@xyo-network/domain": "workspace:^"
@@ -3412,7 +3412,7 @@ __metadata:
     "@types/uuid": ^8.3.4
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/ts-scripts": ^1.0.66
-    "@xylabs/tsconfig": ^1.0.13
+    "@xylabs/tsconfig": ^2.7.23
     "@xyo-network/core": "workspace:^"
     axios: ^0.27.2
     bowser: ^2.11.0
@@ -12638,6 +12638,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:^4.8.4":
+  version: 4.8.4
+  resolution: "typescript@npm:4.8.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 3e4f061658e0c8f36c820802fa809e0fd812b85687a9a2f5430bc3d0368e37d1c9605c3ce9b39df9a05af2ece67b1d844f9f6ea8ff42819f13bcb80f85629af0
+  languageName: node
+  linkType: hard
+
 "typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
   version: 4.6.4
   resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
@@ -12645,6 +12655,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 1cb434fbc637d347be90e3a0c6cd05e33c38f941713c8786d3031faf1842c2c148ba91d2fac01e7276b0ae3249b8633f1660e32686cc7a8c6a8fd5361dc52c66
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.8.4#~builtin<compat/typescript>":
+  version: 4.8.4
+  resolution: "typescript@patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=bda367"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 563a0ef47abae6df27a9a3ab38f75fc681f633ccf1a3502b1108e252e187787893de689220f4544aaf95a371a4eb3141e4a337deb9895de5ac3c1ca76430e5f0
   languageName: node
   linkType: hard
 

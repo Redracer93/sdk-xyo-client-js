@@ -32,7 +32,7 @@
     "@xylabs/eslint-config": "^2.3.22",
     "@xylabs/rollup-config": "^1.1.17",
     "@xylabs/ts-scripts": "^1.0.66",
-    "@xylabs/tsconfig": "^1.0.13",
+    "@xylabs/tsconfig": "^2.7.23",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
     "license-checker": "^25.0.1",
