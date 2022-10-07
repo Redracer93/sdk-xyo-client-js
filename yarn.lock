@@ -3116,7 +3116,7 @@ __metadata:
     "@xylabs/ts-scripts": ^1.0.66
     "@xylabs/tsconfig": ^1.0.13
     "@xyo-network/core": "workspace:^"
-    axios: ^0.27.2
+    axios: ^1.1.2
     dotenv: ^16.0.1
     ethers: ^5.6.6
     license-checker: ^25.0.1
@@ -3141,7 +3141,7 @@ __metadata:
     "@xylabs/eslint-config": ^2.3.22
     "@xylabs/sdk-js": ^2.5.5
     "@xylabs/ts-scripts": ^1.0.66
-    axios: ^0.27.2
+    axios: ^1.1.2
     elliptic: ^6.5.4
     keccak256: ^1.0.6
     license-checker: ^25.0.1
@@ -3166,7 +3166,7 @@ __metadata:
     "@xylabs/ts-scripts": ^1.0.66
     "@xylabs/tsconfig": ^1.0.13
     "@xyo-network/core": "workspace:^"
-    axios: ^0.27.2
+    axios: ^1.1.2
     bowser: ^2.11.0
     license-checker: ^25.0.1
     lodash: ^4.17.21
@@ -3190,7 +3190,7 @@ __metadata:
     "@xyo-network/api": "workspace:^"
     "@xyo-network/core": "workspace:^"
     "@xyo-network/network": "workspace:^"
-    axios: ^0.27.2
+    axios: ^1.1.2
     license-checker: ^25.0.1
     lodash: ^4.17.21
     tslib: ^2.4.0
@@ -3211,7 +3211,7 @@ __metadata:
     "@xylabs/ts-scripts": ^1.0.66
     "@xylabs/tsconfig": ^1.0.13
     "@xyo-network/core": "workspace:^"
-    axios: ^0.27.2
+    axios: ^1.1.2
     bowser: ^2.11.0
     license-checker: ^25.0.1
     lodash: ^4.17.21
@@ -3277,7 +3277,7 @@ __metadata:
     "@xylabs/ts-scripts": ^1.0.66
     "@xylabs/tsconfig": ^1.0.13
     "@xyo-network/core": "workspace:^"
-    axios: ^0.27.2
+    axios: ^1.1.2
     bowser: ^2.11.0
     license-checker: ^25.0.1
     lodash: ^4.17.21
@@ -3364,7 +3364,7 @@ __metadata:
     "@xylabs/ts-scripts": ^1.0.66
     "@xylabs/tsconfig": ^1.0.13
     "@xyo-network/core": "workspace:^"
-    axios: ^0.27.2
+    axios: ^1.1.2
     bowser: ^2.11.0
     license-checker: ^25.0.1
     lodash: ^4.17.21
@@ -3414,7 +3414,7 @@ __metadata:
     "@xylabs/ts-scripts": ^1.0.66
     "@xylabs/tsconfig": ^1.0.13
     "@xyo-network/core": "workspace:^"
-    axios: ^0.27.2
+    axios: ^1.1.2
     bowser: ^2.11.0
     license-checker: ^25.0.1
     lodash: ^4.17.21
@@ -3759,13 +3759,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.27.2":
-  version: 0.27.2
-  resolution: "axios@npm:0.27.2"
+"axios@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "axios@npm:1.1.2"
   dependencies:
-    follow-redirects: ^1.14.9
+    follow-redirects: ^1.15.0
     form-data: ^4.0.0
-  checksum: 38cb7540465fe8c4102850c4368053c21683af85c5fdf0ea619f9628abbcb59415d1e22ebc8a6390d2bbc9b58a9806c874f139767389c862ec9b772235f06854
+    proxy-from-env: ^1.1.0
+  checksum: 136c25a5031aa2845fdbda3006c36888bbe351b11d1195f1f898a23c5df1430febbdb1ad034a61f27967e83762d5b5a3e851fff8a363cb4badeb883f8ff21461
   languageName: node
   linkType: hard
 
@@ -5893,13 +5894,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.14.8, follow-redirects@npm:^1.14.9":
+"follow-redirects@npm:^1.14.8":
   version: 1.15.0
   resolution: "follow-redirects@npm:1.15.0"
   peerDependenciesMeta:
     debug:
       optional: true
   checksum: eaec81c3e0ae57aae2422e38ad3539d0e7279b3a63f9681eeea319bb683dea67502c4e097136b8ce9721542b4e236e092b6b49e34e326cdd7733c274f0a3f378
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.15.0":
+  version: 1.15.2
+  resolution: "follow-redirects@npm:1.15.2"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: faa66059b66358ba65c234c2f2a37fcec029dc22775f35d9ad6abac56003268baf41e55f9ee645957b32c7d9f62baf1f0b906e68267276f54ec4b4c597c2b190
   languageName: node
   linkType: hard
 
@@ -9682,6 +9693,13 @@ __metadata:
     kleur: ^3.0.3
     sisteransi: ^1.0.5
   checksum: d8fd1fe63820be2412c13bfc5d0a01909acc1f0367e32396962e737cb2fc52d004f3302475d5ce7d18a1e8a79985f93ff04ee03007d091029c3f9104bffc007d
+  languageName: node
+  linkType: hard
+
+"proxy-from-env@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "proxy-from-env@npm:1.1.0"
+  checksum: ed7fcc2ba0a33404958e34d95d18638249a68c430e30fcb6c478497d72739ba64ce9810a24f53a7d921d0c065e5b78e3822759800698167256b04659366ca4d4
   languageName: node
   linkType: hard
 

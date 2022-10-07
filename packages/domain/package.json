@@ -12,7 +12,7 @@
     "@xyo-network/api": "workspace:^",
     "@xyo-network/core": "workspace:^",
     "@xyo-network/network": "workspace:^",
-    "axios": "^0.27.2",
+    "axios": "^1.1.2",
     "lodash": "^4.17.21"
   },
   "description": "Primary SDK for using XYO Protocol 2.0",
