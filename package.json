@@ -31,7 +31,7 @@
     "@babel/preset-env": "^7.18.0",
     "@xylabs/eslint-config": "^2.3.22",
     "@xylabs/rollup-config": "^1.1.17",
-    "@xylabs/ts-scripts": "^1.0.66",
+    "@xylabs/ts-scripts": "^2.7.23",
     "@xylabs/tsconfig": "^1.0.13",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
