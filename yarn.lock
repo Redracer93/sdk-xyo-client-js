@@ -12230,11 +12230,11 @@ __metadata:
   linkType: hard
 
 "systeminformation@npm:^5.11.15":
-  version: 5.11.15
-  resolution: "systeminformation@npm:5.11.15"
+  version: 5.12.9
+  resolution: "systeminformation@npm:5.12.9"
   bin:
     systeminformation: lib/cli.js
-  checksum: 29bfd93cd6b733a2730a40daba415ecccb030b1dd965f872d0d0b272a935d31ab35c092ad273ce174f10f123899de03d95295336e5f9c68df0eb4a93b8eaed21
+  checksum: c77ffbd9be92eb5b356c43756d04e3135b2c5c93966bede799ecca45cd5c4876eec9f14141d6cb8fbc6f3dbbae5eef35c835c91b3db2654f583ede192c675e73
   conditions: (os=darwin | os=linux | os=win32 | os=freebsd | os=openbsd | os=netbsd | os=sunos | os=android)
   languageName: node
   linkType: hard
