@@ -11623,14 +11623,17 @@ __metadata:
   linkType: hard
 
 "jest-extended@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "jest-extended@npm:3.1.0"
+  version: 3.2.1
+  resolution: "jest-extended@npm:3.2.1"
   dependencies:
     jest-diff: ^29.0.0
     jest-get-type: ^29.0.0
   peerDependencies:
     jest: ">=27.2.5"
-  checksum: 1656670f7c58419f2ab1ff177db03b79e974faae88b4bdeaa4188fe962a623d77a78df0f9f06dc8a8a945c6e8d081fa48a8d3cf220434cc2ef7831dfa4ee9413
+  peerDependenciesMeta:
+    jest:
+      optional: true
+  checksum: fbcbeace957b5789c4998bdf460d997fd2266b98ca6b23f8af560f7e46357f76fc50acfa56e410191f7755b1c83995623554105620e24517673d21ca7de2f67b
   languageName: node
   linkType: hard
 
