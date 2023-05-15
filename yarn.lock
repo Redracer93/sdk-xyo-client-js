@@ -4437,7 +4437,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^18.11.5, @types/node@npm:^18.11.9":
+"@types/node@npm:*, @types/node@npm:^18.11.5":
   version: 18.14.2
   resolution: "@types/node@npm:18.14.2"
   checksum: 53c07e721f6ae33de71306f6a0b75dae6066a4f55bd5484c93bd59ff25f0c5f004ceafeef509a4d0cb9e24a247efc34d50489bcc1b05a53ecc68e2fc088e65cb
@@ -4448,6 +4448,13 @@ __metadata:
   version: 11.11.6
   resolution: "@types/node@npm:11.11.6"
   checksum: 075f1c011cf568e49701419acbcb55c24906b3bb5a34d9412a3b88f228a7a78401a5ad4d3e1cd6855c99aaea5ef96e37fc86ca097e50f06da92cf822befc1fff
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.1.4":
+  version: 20.1.4
+  resolution: "@types/node@npm:20.1.4"
+  checksum: bffa6a6e92831cc805b13658c55be8e04abe3202d5e57ddd7fee4cfbe269656a1f475909a9f9514e1aff50310d0d90c516ac2c649cb6f1c77d4b1079c2fd1e88
   languageName: node
   linkType: hard
 
@@ -5998,7 +6005,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@xyo-network/node-cli@workspace:packages/modules/packages/node-cli"
   dependencies:
-    "@types/node": ^18.11.9
+    "@types/node": ^20.1.4
     "@types/terminal-kit": ^2.5.0
     "@xyo-network/archivist": "workspace:^"
     "@xyo-network/module": "workspace:^"
@@ -6320,7 +6327,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.20.2
     "@babel/preset-env": ^7.20.2
-    "@types/node": ^18.11.9
+    "@types/node": ^20.1.4
     "@xylabs/eslint-config": ^2.7.24
     "@xylabs/ts-scripts-yarn3": ^2.7.24
     "@xylabs/tsconfig": ^2.7.24
